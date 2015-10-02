@@ -1,0 +1,58 @@
+Extraction started at 2015-Oct-01 07:34 PM on corn15.stanford.edu.
+Properties: {maxELen=6, fCorpus=/afs/ir/class/cs224n/data/pa1/mt/corpus.fr.gz, outputDir=newstest2011.tables, endAtLine=90000000, eCorpus=/afs/ir/class/cs224n/data/pa1/mt/corpus.en.gz, fFilterCorpus=newstest2011.fr, align=/afs/ir/class/cs224n/data/pa1/mt/corpus.align.gz, split=2, extractors=edu.stanford.nlp.mt.train.MosesPharoahFeatureExtractor=phrase-table.gz:edu.stanford.nlp.mt.train.CountFeatureExtractor=phrase-table.gz, threads=4, phiFilter=1e-4}
+Changing default max extracted phrase length: 7 -> 6
+Maximum internal phrase length (F): 1000
+Maximum internal phrase length (E): 1000
+Maximum extracted phrase length (F): 6
+Maximum extracted phrase length (E): 6
+creating PhrasalSourceFilter with maxPhraseLenF=12
+Enumerating phrases in: newstest2011.fr
+Line 0... 100...
+Phrases in newstest2011.fr: 43147
+edu.stanford.nlp.mt.util.DynamicIntegerArrayIndex@7c55d3df locked.
+Exact denominator counts for phi(f|e): true
+Phrase extractor set to count alignments: true
+Cut-off value for phi(e|f): 0.00010
+Cut-off value for lex(e|f): 0.00000
+Feature extractor: edu.stanford.nlp.mt.train.MosesPharoahFeatureExtractor => newstest2011.tables/phrase-table.gz
+Feature extractor: edu.stanford.nlp.mt.train.CountFeatureExtractor => newstest2011.tables/phrase-table.gz
+Using flat phrase extractor (fast version).
+Pass 1 on training data (max phrase len: 1000,1000)...
+Line 0 (mem=5795m)... 1000 (mem=5672m)... 2000 (mem=5672m)... 3000 (mem=5580m)... 4000 (mem=5550m)... 5000 (mem=5457m)... 6000 (mem=5427m)... 7000 (mem=5304m)... 8000 (mem=5304m)... 9000 (mem=5181m)... 10000 (mem=5150m)... 11000 (mem=5058m)... 12000 (mem=4966m)... 13000 (mem=4904m)... 14000 (mem=4782m)... 15000 (mem=4720m)... 16000 (mem=4659m)... 17000 (mem=4563m)... 18000 (mem=4501m)... 19000 (mem=4409m)... 20000 (mem=5741m)... 21000 (mem=5666m)... 22000 (mem=5591m)... 23000 (mem=5516m)... 24000 (mem=5440m)... 25000 (mem=5365m)... 26000 (mem=5290m)... 27000 (mem=5215m)... 28000 (mem=5139m)... 29000 (mem=5064m)... 30000 (mem=4989m)... 31000 (mem=4914m)... 32000 (mem=4820m)... 33000 (mem=4744m)... 34000 (mem=4669m)... 35000 (mem=4556m)... 36000 (mem=4481m)... 37000 (mem=4390m)... 38000 (mem=5756m)... 39000 (mem=5696m)... 40000 (mem=5637m)...
+Range done: [-1-90000000], current line is 40000.
+
+Done with pass 1. Seconds: 5.110.
+Phrase extractor set to count alignments: false
+Some feature extractor needs an additional pass over the data.
+Pass 2 on training data (max phrase len: 1000,1000)...
+Line 0 (mem=5612m)... 1000 (mem=5587m)... 2000 (mem=5544m)... 3000 (mem=5495m)... 4000 (mem=5440m)... 5000 (mem=5379m)... 6000 (mem=5323m)... 7000 (mem=5250m)... 8000 (mem=5182m)... 9000 (mem=5114m)... 10000 (mem=5030m)... 11000 (mem=4950m)... 12000 (mem=4876m)... 13000 (mem=4803m)... 14000 (mem=4729m)... 15000 (mem=4655m)... 16000 (mem=4582m)... 17000 (mem=4508m)... 18000 (mem=4434m)... 19000 (mem=4354m)... 20000 (mem=5790m)... 21000 (mem=5720m)... 22000 (mem=5643m)... 23000 (mem=5566m)... 24000 (mem=5495m)... 25000 (mem=5412m)... 26000 (mem=5335m)... 27000 (mem=5257m)... 28000 (mem=5167m)... 29000 (mem=5090m)... 30000 (mem=5013m)... 31000 (mem=4929m)... 32000 (mem=4846m)... 33000 (mem=4769m)... 34000 (mem=4692m)... 35000 (mem=4602m)... 36000 (mem=4518m)... 37000 (mem=4441m)... 38000 (mem=4358m)... 39000 (mem=5791m)... 40000 (mem=5709m)...
+Range done: [-1-90000000], current line is 40000.
+
+Done with pass 2. Seconds: 9.139.
+Phrases in memory: 182638
+Minimum gap size: 1
+Phrases written: 149741
+Done generating phrase table. Elapsed time: 2.925s.
+Exact denominator counts for phi(f|e): true
+Phrase extractor set to count alignments: true
+Cut-off value for phi(e|f): 0.00010
+Cut-off value for lex(e|f): 0.00000
+Feature extractor: edu.stanford.nlp.mt.train.MosesPharoahFeatureExtractor => newstest2011.tables/phrase-table.gz
+Feature extractor: edu.stanford.nlp.mt.train.CountFeatureExtractor => newstest2011.tables/phrase-table.gz
+Using flat phrase extractor (fast version).
+Pass 1 on training data (max phrase len: 1000,1000)...
+Line 0 (mem=4914m)... 1000 (mem=4885m)... 2000 (mem=4842m)... 3000 (mem=4786m)... 4000 (mem=4737m)... 5000 (mem=4682m)... 6000 (mem=4608m)... 7000 (mem=4542m)... 8000 (mem=4468m)... 9000 (mem=4401m)... 10000 (mem=4321m)... 11000 (mem=5756m)... 12000 (mem=5682m)... 13000 (mem=5607m)... 14000 (mem=5532m)... 15000 (mem=5457m)... 16000 (mem=5382m)... 17000 (mem=5311m)... 18000 (mem=5231m)... 19000 (mem=5156m)... 20000 (mem=5082m)... 21000 (mem=4993m)... 22000 (mem=4918m)... 23000 (mem=4838m)... 24000 (mem=4761m)... 25000 (mem=4681m)... 26000 (mem=4606m)... 27000 (mem=4527m)... 28000 (mem=4452m)... 29000 (mem=4372m)... 30000 (mem=4284m)... 31000 (mem=5861m)... 32000 (mem=5779m)... 33000 (mem=5704m)... 34000 (mem=5615m)... 35000 (mem=5533m)... 36000 (mem=5457m)... 37000 (mem=5375m)... 38000 (mem=5286m)... 39000 (mem=5204m)... 40000 (mem=5121m)...
+Range done: [-1-90000000], current line is 40000.
+
+Done with pass 1. Seconds: 3.808.
+Phrase extractor set to count alignments: false
+Some feature extractor needs an additional pass over the data.
+Pass 2 on training data (max phrase len: 1000,1000)...
+Line 0 (mem=5092m)... 1000 (mem=5062m)... 2000 (mem=5032m)... 3000 (mem=4973m)... 4000 (mem=4928m)... 5000 (mem=4862m)... 6000 (mem=4795m)... 7000 (mem=4729m)... 8000 (mem=4662m)... 9000 (mem=4588m)... 10000 (mem=4521m)... 11000 (mem=4439m)... 12000 (mem=4372m)... 13000 (mem=4298m)... 14000 (mem=4210m)... 15000 (mem=4150m)... 16000 (mem=5853m)... 17000 (mem=5778m)... 18000 (mem=5697m)... 19000 (mem=5616m)... 20000 (mem=5541m)... 21000 (mem=5461m)... 22000 (mem=5386m)... 23000 (mem=5311m)... 24000 (mem=5230m)... 25000 (mem=5155m)... 26000 (mem=5080m)... 27000 (mem=4994m)... 28000 (mem=4919m)... 29000 (mem=4831m)... 30000 (mem=4750m)... 31000 (mem=4675m)... 32000 (mem=4595m)... 33000 (mem=4508m)... 34000 (mem=4420m)... 35000 (mem=4345m)... 36000 (mem=4265m)... 37000 (mem=4190m)... 38000 (mem=4097m)... 39000 (mem=5918m)... 40000 (mem=5831m)...
+Range done: [-1-90000000], current line is 40000.
+
+Done with pass 2. Seconds: 7.528.
+Phrases in memory: 64678
+Phrases written: 64678
+Done generating phrase table. Elapsed time: 1.056s.
+Extraction ended at 2015-Oct-01 07:35 PM
